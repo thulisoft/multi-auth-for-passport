@@ -31,10 +31,5 @@
         "psr-4": {
             "Thulisoft\\MultiAuthForPassport\\Tests\\": "tests"
         }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "5.0-dev"
-        }
     }
 }
