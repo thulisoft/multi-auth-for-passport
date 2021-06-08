@@ -2,14 +2,6 @@
     "name": "thulisoft/multi-auth-for-passport",
     "description": "Add support to multi-auth on Laravel Passport",
     "type": "library",
-    "license": "MIT",
-    "keywords": ["laravel", "passport", "multi-auth"],
-    "authors": [{
-        "name": "Thulisoft",
-        "email": "thulisoft.info@gmail.com"
-    }],
-    "minimum-stability": "stable",
-    "prefer-stable": true,
     "require": {
         "php": "^7.2",
         "laravel/passport": "^10.0"
@@ -19,22 +11,11 @@
         "mockery/mockery": "^1.0",
         "orchestra/database": "^4.0"
     },
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Thulisoft\\MultiAuthForPassport\\": "src/"
         }
     },
-    "autoload-dev": {
-        "files": [
-            "tests/TestCase.php"
-        ],
-        "psr-4": {
-            "Thulisoft\\MultiAuthForPassport\\Tests\\": "tests"
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "5.0-dev"
-        }
-    }
+    "minimum-stability": "stable"
 }
