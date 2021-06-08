@@ -4,7 +4,7 @@
     "type": "library",
     "require": {
         "php": "^7.2",
-        "laravel/passport": "^10.0"
+        "laravel/passport": "^10.1"
     },
     "require-dev": {
         "orchestra/testbench": "^4.0",
@@ -15,6 +15,14 @@
     "autoload": {
         "psr-4": {
             "Thulisoft\\MultiAuthForPassport\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "files": [
+            "tests/TestCase.php"
+        ],
+        "psr-4": {
+            "Thulisoft\\MultiAuthForPassport\\Tests\\": "tests"
         }
     },
     "minimum-stability": "stable"
